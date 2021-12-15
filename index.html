@@ -1,0 +1,13 @@
+
+<script>
+ function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+ }
+ 
+window.onload = async () => {
+  for (let i=0; i < 10000; i++) {
+    document.body.innerHTML = `Current count: ${i}`
+    await sleep(500)
+  }
+}
+</script>
