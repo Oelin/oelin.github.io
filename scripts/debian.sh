@@ -1,6 +1,6 @@
 # Bash.
 
-sudo apt install -y curl zsh
+sudo apt install -y curl
 
 curl https://codeberg.org/kore/.bashrc/raw/branch/main/src/.bashrc > ~/.bashrc
 
