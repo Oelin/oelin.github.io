@@ -20,7 +20,7 @@ sudo curl -sL install.python-poetry.org | python3 -
 
 mkdir ~/.venv
 
-python3 -m venv ~/.venv/venv
+python3 -m venv ~/venv
 
 # Node.
 
